@@ -15,6 +15,13 @@
           fetch="https://gitlab.com/StatiXOS"
           revision="tm-qpr1" />
 
+
+  <!-- ANT -->
+  <project name="LineageOS/android_external_ant-wireless_ant_client" path="external/ant-wireless/ant_client" remote="github" revision="lineage-20" />
+  <project name="LineageOS/android_external_ant-wireless_ant_native" path="external/ant-wireless/ant_native" remote="github" revision="lineage-20" />
+  <project name="LineageOS/android_external_ant-wireless_ant_service" path="external/ant-wireless/ant_service" remote="github" revision="lineage-20" />
+  <project name="LineageOS/android_external_ant-wireless_hidl" path="external/ant-wireless/hidl" remote="github" revision="lineage-20" />
+
   <!-- Build -->
   <project path="build/make" name="android_build" remote="statix" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
